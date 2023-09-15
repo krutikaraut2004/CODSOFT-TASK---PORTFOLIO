@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Lobster&family=Pacifico&family=Poppins&family=Source+Code+Pro:wght@300&family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Lobster&family=Pacifico&family=Poppins&family=Quicksand:wght@500&family=Source+Code+Pro:wght@300&family=Titan+One&display=swap');
 
-
 *{
     margin:0;
     padding: 0;
@@ -35,6 +34,22 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-size: 1rem;
+    padding: 11px 20px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar a:hover{
+    color: pink;
 }
 
 .logo{
